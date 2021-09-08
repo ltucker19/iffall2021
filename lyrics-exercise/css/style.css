@@ -1,0 +1,19 @@
+body {
+    background-color: orange;
+}
+h1 {
+    position: relative;
+    left: 40px;
+    color: #FFE0B3;
+}
+p {
+    position: relative;
+    left: 40px;
+    color: #FFE6B3;
+}
+italic {
+    font-style: italic;
+}
+italicone {
+    font-style: italic;
+}
