@@ -1,0 +1,52 @@
+html {
+        color: rgb(196, 245, 245);
+        background-color:cadetblue;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        font-family: 'Crimson Text', serif;
+        font-size: 19pt;
+}
+.intro {
+        font-size: 21pt;
+        color: rgb(34, 55, 56);
+}
+.subintro {
+        font-size: 10pt;
+        color: rgb(34, 55, 56);
+}
+p {
+        font-size: 15pt;
+        line-height: 10pt;
+}
+h2 {
+        line-height: 4pt;
+}
+.fontweight {
+        font-weight: bold;
+}
+.fontstyle {
+        font-style: italic;
+}
+.letterspacing {
+        letter-spacing: 0.3em;
+}
+.letterspacingone {
+        letter-spacing: -.06em;
+}
+.textdecoration {
+        text-decoration: underline;
+}
+.textdecorationone {
+        text-decoration: line-through;
+}
+.textdecorationtwo {
+        text-decoration: overline;
+}
+.text {
+        text-transform: uppercase;
+}
+.textone {
+        text-transform: lowercase;
+}
+.texttwo {
+        text-transform: capitalize;
+}
