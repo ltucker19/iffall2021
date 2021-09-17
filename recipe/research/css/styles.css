@@ -1,0 +1,19 @@
+html{
+    font-family:'Libre Franklin', sans-serif;
+    background-color: rgb(143, 95, 61); 
+    color: rgb(241, 205, 179); 
+}
+li {
+    line-height: 30pt;
+} 
+h1 {
+    font-weight: bold;
+    font-size: 30pt;
+}
+h3 {
+    font-weight: bold;
+}
+img {
+    height: 400px;
+    width: 400px;
+}
