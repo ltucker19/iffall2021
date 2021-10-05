@@ -1,0 +1,38 @@
+img {
+    width: 150px;
+}
+.grid {
+    padding: 0;
+}
+li {
+    display: block;
+}
+.using-floats li {
+    float: left;
+}
+.using-floats::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.grid li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.using-inline-block {
+    display: inline-block;
+    font-size: 0;
+}
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid using-grid {
+    display: grid;
+    grid-template-columns: lfr lfr lfr lfr;
+}
+.using-grid li {
+    width: 100%;
+}
