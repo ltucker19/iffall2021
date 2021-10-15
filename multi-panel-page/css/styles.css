@@ -1,0 +1,153 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+h2{ 
+    margin: 0;
+}
+.content {
+    width: 960px;
+    margin: auto;
+}
+header {
+    background-image: url(https://sp-images.summitpost.org/371378.jpg?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=601bf7eb9d9f614ffdb48018272c8a6e);
+    text-align: center;
+}
+
+header .content {
+    padding: 152px 0 180px 0;
+}
+
+header h1 {
+    font-size: 80px;
+}
+header h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+}
+section .content {
+    padding: 40px 0 70px 0;
+}
+section h1 {
+    font-size: 40px;
+    text-align: center;
+}
+section p {
+    padding: 15px 0 0 0;
+    margin-bottom: -15px;
+
+}
+.photo {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 40px;
+    padding-top: 34px;
+}
+.paragraphone {
+    margin-top: -10px;
+}
+section {
+    background-color: rgba(255, 0, 0, .3);
+}
+ul {
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0; 
+}
+img {
+    float: left;
+    width: 200px;
+    height: 150px;
+
+}
+ul li {
+    display: block;
+    width: 90%;
+}
+.titleone {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.grid p {
+    font-size: 18px;
+    line-height:1.6rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: -44px;
+    color: white;
+
+}
+h4 {
+    font-size: 20px;
+    color: white;
+}
+.phototwo {
+    margin-right: 13px;
+    margin-top: 18px;
+}
+.photothree {
+    margin-right: 13px;
+    margin-top: 18px;
+}
+.photofour {
+    margin-right: 13px;
+    margin-top: 22px;
+}
+.photofive {
+    margin-right: 13px;
+    margin-top: 22px;
+}
+.photosix {
+    margin-right: 13px;
+    margin-top: 25px;
+}
+.photoseven {
+    margin-right: 13px;
+    margin-top: 25px;
+}
+h5 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: .19px;
+    margin-left: 124px;
+    margin-right: 123px;
+    margin-top: 27px;
+    margin-bottom: 110px;
+
+}
+.lastsectiontitle {
+    font-size: 40px;
+    text-align: center;
+
+}
+footer {
+    padding: 40px 0 40px 0;
+    font-size: 18px;
+    margin-top: -79px;
+    color: white;
+    background-color: rgb(44, 84, 136)
+
+}
+.first {
+    background-color: rgb(146, 193, 255);
+}
+.grid {
+    background-color: rgb(4, 40, 87);
+}
+.third {
+    background-color: rgb(144, 179, 224)
+}
+
