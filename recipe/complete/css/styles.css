@@ -1,0 +1,86 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+h2{ 
+    margin: 0;
+}
+.content {
+    width: 100%;
+    margin: auto;
+}
+header {
+    background-image: url(https://www.tasteofhome.com/wp-content/uploads/2018/05/exps202209_TraditionalItalianSausageStuffing_Still2_RMS.jpg?fit=700,1024);
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    p {margin: 0 5% 0 5%;}
+    .directions ol {margin: 0 5% 0 5%;}
+    header h1 {font-size: 40px;}
+    h1 {font-size: 19px;}
+}
+
+header .content {
+    padding: 15px 0 180px 0;
+}
+
+header h1 {
+    font-size: 80px;
+    color: white;
+}
+p {
+    font-size: 18px;
+    text-align: center;
+}
+section .content {
+    padding: 40px 0 70px 0;
+}
+section h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+section p {
+    padding: 15px 0 0 0;
+    margin-bottom: -15px;
+
+}
+.paragraphone {
+    margin-top: -10px;
+}
+.titleone {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+footer {
+    padding: 40px 0 40px 0;
+    font-size: 18px;
+    margin-top: -79px;
+    background-color: rgb(218, 169, 114);
+
+}
+.first {
+    background-color: rgb(163, 123, 71);
+}
+.ingredients {
+    background-color: rgb(218, 169, 114);
+}
+.directions {
+    background-color: rgb(163, 123, 71);
+    text-align: center;
+}
+.directions li {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.directions .content {
+    margin-bottom: 40px;
+}
+
