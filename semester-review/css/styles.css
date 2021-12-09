@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 45, 45); ;
+}
+@media (min-width: 800px) {
+    nav#main-nav {
+        display: flex;
+    }    
+    nav#main-nav ul li a {
+        flex-direction: row;
+    }
+}
+
+nav#main-nav ul li {
+    margin: 0 10px;
+    margin-top: 80px;
+}
+.first h1 {
+    background-color: rgb(192, 45, 45);
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second {
+    background-color: rgb(192, 45, 45);
+}
+
+div#albumspage ul li {
+    list-style: none;
+}
+p {
+    color: white;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.firstalbums {
+    background-color:rgb(192, 45, 45);
+    margin-top: -15px;
+    height: 2250px;
+}
+
+@media (min-width: 1000px) {
+
+    .second #albumcovers ul li img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 800px) {
+    nav#main-nav ul{
+        display: inline-flex;
+        margin-bottom: 100px;
+        margin-top: -40px;
+    }
+    nav#main-nav img{
+        display: inline-block;
+    }
+    nav#main-nav{
+        text-align: center;
+    }
+}
+a {
+    color: black;
+    background-color: white;
+    padding: .4em 2em;
+    margin: 0 0px;
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 20px;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+@media (min-width: 550px) {
+    div#albumspage p {
+        width: 500px;
+    }
+}
+@media (max-width: 550px) {
+    .staxstore {
+        display: flex;
+        width: 250px;
+        height: 150px;
+    }
+}
